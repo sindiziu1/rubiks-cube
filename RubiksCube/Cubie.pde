@@ -1,20 +1,35 @@
 class Cubie {
-  PVector pos;
-  float len;
+  PMatrix3D matrix;
+  int x = 0;
+  int y = 0;
+  int z = 0;
+  color c;
   
-  Cubie(float x, float y, float z, float len_){
-    pos = new Pvector(x,y,z);
-    len = len_;
+  Cubie(PMatrix3D m, int x, int y, int z){
+    matrix = m;
+    this.x = x;
+    this.y = y;
+    this.z = z;  
+    c = color(255);
+  }
   
+  void update(int x, int y, int z){
+    matrix.reset();
+    matrix.translate(x, y, z);
+    this.x = x;
+    this.y = y;
+    this.z = z;     
   }
   
   void show() {
-    fill(255);
+    fill(c);
     stroke(0);
-    strokeWeight(8);
+    strokeWeight(0.1);
     pushMatrix();
-    translate(pos.x, pos.y, pos.z);
-    box(len);    
+    applyMatrix(matrix);
+    box(1);
+    
+            
     popMatrix();
   
   }
