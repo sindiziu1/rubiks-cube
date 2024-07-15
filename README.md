@@ -1,6 +1,6 @@
 # rubiks-cube
 
-in this repo i will publish my bachelors diploma thesis, which was an in depth analysis of the DeepCubeA algorithm to solve the rubiks cube using deep reinforcement learning
+in this repo i will publish my bachelors diploma thesis, which was an in depth analysis of the DeepCubeA algorithm (F. Agostinelli) to solve the rubiks cube using deep reinforcement learning
 
 
 since we're talking about deep learning, here is a picture of a 
