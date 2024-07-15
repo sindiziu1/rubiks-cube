@@ -1,7 +1,7 @@
 # rubiks-cube
 
 in this repo i will publish my bachelors diploma thesis, which was an in depth analysis of the DeepCubeA algorithm (F. Agostinelli) to solve the rubiks cube using deep reinforcement learning
-
+_link to the analyzed algorithm: https://github.com/forestagostinelli/DeepCubeA_
 
 since we're talking about deep learning, here is a picture of a 
 **fish from the deep sea which can walk!**
